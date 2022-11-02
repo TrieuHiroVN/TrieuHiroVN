@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="TrieuHiroVN Portfolio">
+        <meta property="og:description" content="Hello, my name is Pham Phan Anh Trieu. I am a programmer from Vietnam. My specialty is front-end and back-end programming for websites.">
+        <meta property="og:image" content="/assets/media/img/png/myavatar.png">
+        <title>TrieuHiroVN Portfolio</title>
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="/assets/js/portfolio.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="portfolio">
+                <div class="portfolio__card">
+                    <div class="mt-18">
+                        <div class="portfolio__card--img">
+                            <img src="/assets/media/img/png/myavatar.png">
+                        </div>
+                        <div class="portfolio__card--text">
+                            <h1>Pham Anh Trieu</h1>
+                            <h2>Full Stack Developer</h2>
+                        </div>
+                        <div class="portfolio__card--btn">
+                            <a href="">Hire me</a>
+                            <a href="">My CV</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio__information">
+                    <div class="information-wrapper">
+                        <div id="intro">
+                            <p>I am a programmer from Vietnam. My specialty is front-end and back-end programming for websites.</p>
+                            <div class="around">
+                                <!-- front-end -->
+                                <ul>
+                                    <li><img src="/assets/media/img/png/front-end.png"></li>
+                                    <li><p>HTML, CSS, JavaScript</p></li>
+                                    <li><p>Friendly perspective</p></li>
+                                    <li><p>Easy accessibility</p></li>
+                                </ul>
+                                <!-- back-end -->
+                                <ul>
+                                    <li><img src="/assets/media/img/png/back-end.png"></li>
+                                    <li><p>Python, ReactJS, etc</p></li>
+                                    <li><p>Fast engines</p></li>
+                                    <li><p>High security</p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div id="goal" style="display: none;">goal</div>
+
+                        <div id="academic" style="display: none;">academic</div>
+
+                        <div id="project" style="display: none;">project</div>
+
+                        <div id="contact" style="display: none;">contact</div>
+                    </div>
+                </div>
+
+                <div class="portfolio__nav">
+                    <a id="intro-btn" onclick="display('intro')"><i class="fa fa-home" aria-hidden="true"></i></a>
+                    <a id="goal-btn" onclick="display('goal')"><i class="fa fa-line-chart" aria-hidden="true"></i></a>
+                    <a id="academic-btn" onclick="display('academic')"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                    <a id="project-btn" onclick="display('project')"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+                    <a id="contact-btn" onclick="display('contact')"><i class="fa fa-commenting" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
