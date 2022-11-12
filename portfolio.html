@@ -32,7 +32,8 @@
 
                 <div class="portfolio__information">
                     <div class="information-wrapper">
-                        <div id="intro">
+                        <!-- first intro -->
+                        <div class="portfolio__content" id="intro">
                             <p>I am a programmer from Vietnam. My specialty is front-end and back-end programming for websites.</p>
                             <div class="around">
                                 <!-- front-end -->
@@ -42,6 +43,7 @@
                                     <li><p>Friendly perspective</p></li>
                                     <li><p>Easy accessibility</p></li>
                                 </ul>
+
                                 <!-- back-end -->
                                 <ul>
                                     <li><img src="assets/media/img/png/back-end.png"></li>
@@ -52,16 +54,63 @@
                             </div>
                         </div>
 
-                        <div id="goal" style="display: none;">goal</div>
+                        <!-- goal -->
+                        <div class="portfolio__content" id="goal" style="display: none;">
+                            <h1>Like a Professional</h1>
+                            <p>
+                                My goal is to bring the brand names to the community through the web. In today's highly 
+                                competitive digital space, businesses will need to build their online presence in front of the public.
+                            </p>
+                            <img src="assets/media/img/png/fullstack-draw-office.png">
+                        </div>
 
-                        <div id="academic" style="display: none;">academic</div>
+                        <!-- academic -->
+                        <div class="portfolio__content" id="academic" style="display: none;">
+                            <!-- level -->
+                            <h1>Academic Level</h1>
+                            <ul>
+                                <li><p>• Graduated from Secondary School</p></li>
+                                <li><p>• Half-graduated from Post Secondary School</p></li>
+                            </ul>
 
-                        <div id="project" style="display: none;">project</div>
+                            <!-- collabs -->
+                            <h1 style="margin-bottom: 24px; margin-top: 12px;">I collaborated with</h1>
+                            <ul style="text-align: center;">
+                                <li>
+                                    <img src="https://soulrealms.ml/assets/img/botLogo.png">
+                                    <p>Soul Realms</p>
+                                </li>
+                            </ul>
+                        </div>
 
-                        <div id="contact" style="display: none;">contact</div>
+                        <!-- projects -->
+                        <div class="portfolio__content" id="project" style="display: none;">
+                            <h1>My Outstanding Projects</h1>
+                            <ul>
+                                <li><a href="https://soulrealms.ml">Soul Realms <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <!-- contact -->
+                        <div class="portfolio__content" id="contact" style="display: none;">
+                            <h1>Collaborate with me</h1>
+                            <!-- address -->
+                            <ul>
+                                <li><p>• 123 ABC Street, DEF City</p></li>
+                                <li><p>• +84 32 757 1959</p></li>
+                                <li><p>• trieuhirovn@gmail.com</p></li>
+                            </ul>
+
+                            <!-- social links -->
+                            <ul class="link-me">
+                                <li><a href="https://discord.com/users/606284212332658689"><img src="assets/media/img/svg/discord-logo.svg"></a></li>
+                                <li><a href="https://facebook.com/the.alone.badguy"><img src="assets/media/img/svg/facebook-logo.svg"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
+                <!-- navigation -->
                 <div class="portfolio__nav">
                     <a id="intro-btn" onclick="display('intro')"><i class="fa fa-home" aria-hidden="true"></i></a>
                     <a id="goal-btn" onclick="display('goal')"><i class="fa fa-line-chart" aria-hidden="true"></i></a>

@@ -4,10 +4,10 @@
  */
 
 function display (id, btn) {
-    ['intro', 'goal', 'academic', 'project', 'contact']
-        .forEach(page => 
-            document.getElementById(page).style.display = 'none'
-        );
+    const displays = document.getElementsByClassName('portfolio__content');
+    for (const element of displays) {
+        element.style.display = 'none';
+    };
 
     document.getElementById(id).style.display = 'block';
 };
